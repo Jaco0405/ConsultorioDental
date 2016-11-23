@@ -20,6 +20,9 @@
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -48,10 +51,10 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="index.html">INICIO</a>
+                        <a href="{{URL::to('/home')}}">INICIO</a>
                     </li>
                     <li>
-                        <a href="services.html">SERVICIOS</a>
+                        <a href="{{URL::to('/servicios')}}">SERVICIOS</a>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">GALERIA <b class="caret"></b></a>
@@ -74,10 +77,10 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="about.html">NOSOTROS</a>
+                        <a href="{{URL::to('/acerca')}}">NOSOTROS</a>
                     </li>
                     <li>
-                        <a href="contact.html">CONTACTO</a>
+                        <a href="{{URL::to('/contacto')}}">CONTACTO</a>
                     </li>
                 </ul>
             </div>
@@ -101,16 +104,13 @@
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
-    <!-- Script to Activate the Carousel -->
-    <script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    })
-    </script>
+
+    
 
 </body>
 

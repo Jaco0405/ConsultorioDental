@@ -11,4 +11,7 @@
 |
 */
 
-Route::get('/','AdminController@index');
+Route::get('/home','AdminController@index');
+Route::get('/contacto','AdminController@contacto');
+Route::get('/servicios','AdminController@servicios');
+Route::get('/acerca','AdminController@acerca');

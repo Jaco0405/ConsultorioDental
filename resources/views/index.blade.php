@@ -14,22 +14,22 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
             <div class="item active">
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');"></div>
-                <div class="carousel-caption">
+                <div class="fill" style="background-image:url('http://dentalinegt.com/images/slide2.jpg');"></div>
+                <!--<div class="carousel-caption">
                     <h2>Caption 1</h2>
-                </div>
+                </div>-->
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
-                <div class="carousel-caption">
+                <div class="fill" style="background-image:url('http://www.nuevaprevident.cl/images/tratamientos/endodoncia.png');"></div>
+                <!--<div class="carousel-caption">
                     <h2>Caption 2</h2>
-                </div>
+                </div>-->
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
-                <div class="carousel-caption">
+                <div class="fill" style="background-image:url('http://tipsalud.com/wp-content/uploads/2016/01/toothbrush-571741_1280.jpg');"></div>
+                <!--<div class="carousel-caption">
                     <h2>Caption 3</h2>
-                </div>
+                </div>-->
             </div>
         </div>
 
@@ -165,5 +165,17 @@
         </div>
 
         <hr>
+
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
 
 @stop

@@ -17,6 +17,19 @@ class AdminController extends Controller
     {
         return view('index');
     }
+        public function acerca()
+    {
+        return view('../general/about');
+    }
+    public function contacto()
+    {
+        return view('../general/contact');
+    }
+    public function servicios()
+    {
+        return view('../general/services');
+    }
+
 
     /**
      * Show the form for creating a new resource.
